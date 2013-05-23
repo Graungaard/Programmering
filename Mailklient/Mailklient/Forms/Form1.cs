@@ -15,5 +15,11 @@ namespace Mailklient
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            objForm1.Visible = False
+            Form2.ShowDialog()
+        }
     }
 }
