@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Mailklient
 {
-    class test2
+    class test100
     {
     }
 }
