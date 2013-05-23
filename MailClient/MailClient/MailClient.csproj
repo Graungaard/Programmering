@@ -67,6 +67,9 @@
     <Compile Include="Forms\Send Mail.xaml.cs">
       <DependentUpon>Send Mail.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Forms\UserControl1.xaml.cs">
+      <DependentUpon>UserControl1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="IsPrim.cs" />
     <Compile Include="ISwitchable.cs" />
     <Compile Include="Switcher.cs" />
@@ -79,6 +82,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Forms\Send Mail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\UserControl1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
