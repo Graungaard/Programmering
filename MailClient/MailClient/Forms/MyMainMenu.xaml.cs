@@ -41,12 +41,17 @@ namespace MailClient.Forms
         // switcher billedet om til siden med programmet, som viser alle prim tal i mellem to tal.
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(new Indbakke());
+            Switcher.Switch(new IndbakkeGmail());
         }
 
         private void MyMainMenu_Loaded(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void POP3Indbakken_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new UserControl1());
         }
         }
 }

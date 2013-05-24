@@ -29,5 +29,10 @@ namespace MailClient.Forms
         {
             Switcher.Switch(new MyMainMenu());
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

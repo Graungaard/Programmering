@@ -21,7 +21,7 @@
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <Button Content="Se Indbakke" HorizontalAlignment="Left" Margin="29,139,0,0" VerticalAlignment="Top" Width="180" ToolTip="Tryk her for at se din indbakke" Click="Button_Click_2" FontFamily="Old English Text MT" FontSize="22">
+        <Button x:Name="IndbakkegmailKnap" Content="Se Indbakke fra Gmail" HorizontalAlignment="Left" Margin="29,139,0,0" VerticalAlignment="Top" Width="237" ToolTip="Tryk her for at se din indbakke" Click="Button_Click_2" FontFamily="Old English Text MT" FontSize="22">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
@@ -31,6 +31,46 @@
                 <DropShadowEffect/>
             </Image.Effect>
         </Image>
+        <Button x:Name="IndbakkegmailKnap_Copy" Content="Se Indbakke fra Gmail" HorizontalAlignment="Left" Margin="29,139,0,0" VerticalAlignment="Top" Width="237" ToolTip="Tryk her for at se din indbakke" Click="Button_Click_2" FontFamily="Old English Text MT" FontSize="22">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="IndbakkegmailKnap_Copy1" Content="Se Indbakke fra Gmail" HorizontalAlignment="Left" Margin="29,139,0,0" VerticalAlignment="Top" Width="237" ToolTip="Tryk her for at se din indbakke" Click="Button_Click_2" FontFamily="Old English Text MT" FontSize="22">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="IndbakkegmailKnap_Copy2" Content="Se Indbakke fra Gmail" HorizontalAlignment="Left" Margin="29,139,0,0" VerticalAlignment="Top" Width="237" ToolTip="Tryk her for at se din indbakke" Click="Button_Click_2" FontFamily="Old English Text MT" FontSize="22">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="IndbakkegmailKnap_Copy3" Content="Se Indbakke fra Gmail" HorizontalAlignment="Left" Margin="29,139,0,0" VerticalAlignment="Top" Width="237" ToolTip="Tryk her for at se din indbakke" Click="Button_Click_2" FontFamily="Old English Text MT" FontSize="22">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="IndbakkegmailKnap_Copy4" Content="Se Indbakke fra Gmail" HorizontalAlignment="Left" Margin="29,139,0,0" VerticalAlignment="Top" Width="237" ToolTip="Tryk her for at se din indbakke" Click="Button_Click_2" FontFamily="Old English Text MT" FontSize="22">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="IndbakkegmailKnap_Copy5" Content="Se Indbakke fra Gmail" HorizontalAlignment="Left" Margin="29,139,0,0" VerticalAlignment="Top" Width="237" ToolTip="Tryk her for at se din indbakke" Click="Button_Click_2" FontFamily="Old English Text MT" FontSize="22">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="IndbakkegmailKnap_Copy6" Content="Se Indbakke fra Gmail" HorizontalAlignment="Left" Margin="29,139,0,0" VerticalAlignment="Top" Width="237" ToolTip="Tryk her for at se din indbakke" Click="Button_Click_2" FontFamily="Old English Text MT" FontSize="22">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="POP3Indbakken" Content="POP3 Indbakke" HorizontalAlignment="Left" Margin="29,202,0,0" VerticalAlignment="Top" Width="255" FontFamily="Old English Text MT" FontSize="22" Click="POP3Indbakken_Click">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
 
     </Grid>
 </UserControl>

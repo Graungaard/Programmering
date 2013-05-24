@@ -18,11 +18,13 @@ namespace MailClient.Forms
     /// <summary>
     /// Interaction logic for Indbakke1.xaml
     /// </summary>
-    public partial class Indbakke : UserControl
+    public partial class IndbakkeGmail : UserControl
     {
-        public Indbakke()
+        public IndbakkeGmail()
         {
             InitializeComponent();
         }
+
+        
     }
 }
