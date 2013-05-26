@@ -163,6 +163,9 @@
   <ItemGroup>
     <Resource Include="Forms\POP3Indbakke\Icons\Back.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Forms\POP3Indbakke\Icons\mail.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
