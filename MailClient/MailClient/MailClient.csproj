@@ -35,10 +35,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Accessibility" />
-    <Reference Include="OpenPop">
-      <HintPath>..\..\..\..\..\Google Drev\Skole (1)\H3\Programmering III\OpenPop.NET 2.0.5\binaries\signed (strong name)\OpenPop.dll</HintPath>
-    </Reference>
-    <Reference Include="PopClient">
+    <Reference Include="PopClient, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\Downloads\PopClient\bin\Debug\PopClient.dll</HintPath>
     </Reference>
     <Reference Include="PresentationUI, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
@@ -71,30 +69,42 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ErrorMessage_2.cs" />
-    <Compile Include="Forms\IndbakkeGmail.xaml.cs">
+    <Compile Include="Forms\IndbakkeGmail\IndbakkeGmail.xaml.cs">
       <DependentUpon>IndbakkeGmail.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Forms\MyMainMenu.xaml.cs">
+    <Compile Include="Forms\MyMainMenu\MyMainMenu.xaml.cs">
       <DependentUpon>MyMainMenu.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Forms\SendMails\Send Mail.xaml.cs">
-      <DependentUpon>Send Mail.xaml</DependentUpon>
+    <Compile Include="Forms\POP3Indbakke\LogWindow.xaml.cs">
+      <DependentUpon>LogWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Forms\POP3Indbakke\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\POP3Indbakke\NS.MVVM\DelegateCommand.cs" />
+    <Compile Include="Forms\POP3Indbakke\NS.MVVM\DelegateCommandT.cs" />
+    <Compile Include="Forms\POP3Indbakke\NS.MVVM\PasswordBoxBindingBehavior.cs" />
+    <Compile Include="Forms\POP3Indbakke\ViewModels\MainWindowViewModel.cs" />
+    <Compile Include="Forms\POP3Indbakke\ViewModels\ViewModelBase.cs" />
     <Compile Include="Forms\UserControl1.xaml.cs">
       <DependentUpon>UserControl1.xaml</DependentUpon>
     </Compile>
     <Compile Include="IsPrim.cs" />
     <Compile Include="ISwitchable.cs" />
     <Compile Include="Switcher.cs" />
-    <Page Include="Forms\IndbakkeGmail.xaml">
+    <Page Include="Forms\IndbakkeGmail\IndbakkeGmail.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Forms\MyMainMenu.xaml">
+    <Page Include="Forms\MyMainMenu\MyMainMenu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Forms\SendMails\Send Mail.xaml">
+    <Page Include="Forms\POP3Indbakke\LogWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\POP3Indbakke\MainWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -139,6 +149,19 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Forms\Div\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Forms\POP3Indbakke\Icons\BlueDownArrow.png" />
+    <Resource Include="Forms\POP3Indbakke\Icons\Cancel.png" />
+    <Resource Include="Forms\POP3Indbakke\Icons\CancelGray.png" />
+    <Resource Include="Forms\POP3Indbakke\Icons\GreenUpArrow.png" />
+    <Resource Include="Forms\POP3Indbakke\Icons\Refresh.png" />
+    <Resource Include="Forms\POP3Indbakke\Icons\RefreshGray.png" />
+    <Resource Include="Forms\POP3Indbakke\Icons\ShowLog.png" />
+    <Resource Include="Forms\POP3Indbakke\Icons\ShowLogGray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Forms\POP3Indbakke\Icons\Back.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

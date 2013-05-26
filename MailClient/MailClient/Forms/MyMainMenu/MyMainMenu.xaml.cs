@@ -29,7 +29,7 @@ namespace MailClient.Forms
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
 
-            Switcher.Switch(new Send_Mail());
+           // Switcher.Switch(new //Send_Mail());
         }
 
 
@@ -51,7 +51,7 @@ namespace MailClient.Forms
 
         private void POP3Indbakken_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(new UserControl1());
+            Switcher.Switch(new MailClient.Forms.POP3Indbakke.MainWindow());
         }
         }
 }
