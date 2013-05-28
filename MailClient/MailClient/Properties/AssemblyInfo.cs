@@ -7,12 +7,12 @@ using System.Windows;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Prim")]
+[assembly: AssemblyTitle("MailClient")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Grundfos")]
-[assembly: AssemblyProduct("Prim")]
-[assembly: AssemblyCopyright("Copyright © Grundfos 2013")]
+[assembly: AssemblyCompany("Mikkel & Jacob")]
+[assembly: AssemblyProduct("MailClient")]
+[assembly: AssemblyCopyright("Copyright © Mikkel & Jacob 2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

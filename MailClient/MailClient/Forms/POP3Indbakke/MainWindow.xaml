@@ -22,15 +22,15 @@
             <ToolBar Grid.Row="0"  ToolBarTray.IsLocked="True" IsEnabled="{Binding IsToolbarAvailable}">
                 <Button Margin="3,0,3,0" Command="{Binding RefreshCommand}">
                     <StackPanel Orientation="Horizontal">
-                        <Image Width="32">
+                        <Image Width="32" Source="Icons/Refresh.png">
                             <Image.Style>
                                 <Style TargetType="Image">
                                     <Style.Triggers>
                                         <Trigger Property="IsEnabled" Value="False">
-                                            <Setter Property="Image.Source" Value="C:\Users\JAcob\Documents\GitHub\Programmering\MailClient\MailClient\Forms\POP3Indbakke\Icons\RefreshGray.png" />
+                                            <Setter Property="Image.Source" Value="Icons/Refresh.png" />
                                         </Trigger>
                                         <Trigger Property="IsEnabled" Value="True">
-                                            <Setter Property="Image.Source" Value="C:\Users\JAcob\Documents\GitHub\Programmering\MailClient\MailClient\Forms\POP3Indbakke\Icons\Refresh.png" />
+                                            <Setter Property="Image.Source" Value="Icons/RefreshGray.png" />
                                         </Trigger>
                                     </Style.Triggers>
                                 </Style>
@@ -46,10 +46,10 @@
                                 <Style TargetType="Image">
                                     <Style.Triggers>
                                         <Trigger Property="IsEnabled" Value="False">
-                                            <Setter Property="Image.Source" Value="C:\Users\JAcob\Documents\GitHub\Programmering\MailClient\MailClient\Forms\POP3Indbakke\Icons\CancelGray.png" />
+                                            <Setter Property="Image.Source" Value="Icons/CancelGray.png" />
                                         </Trigger>
                                         <Trigger Property="IsEnabled" Value="True">
-                                            <Setter Property="Image.Source" Value="C:\Users\JAcob\Documents\GitHub\Programmering\MailClient\MailClient\Forms\POP3Indbakke\Icons\Cancel.png" />
+                                            <Setter Property="Image.Source" Value="Icons\Cancel.png" />
                                         </Trigger>
                                     </Style.Triggers>
                                 </Style>
@@ -65,10 +65,10 @@
                                 <Style TargetType="Image">
                                     <Style.Triggers>
                                         <Trigger Property="IsEnabled" Value="False">
-                                            <Setter Property="Image.Source" Value="C:\Users\JAcob\Documents\GitHub\Programmering\MailClient\MailClient\Forms\POP3Indbakke\Icons\ShowLogGray.png" />
+                                            <Setter Property="Image.Source" Value="Icons\ShowLogGray.png" />
                                         </Trigger>
                                         <Trigger Property="IsEnabled" Value="True">
-                                            <Setter Property="Image.Source" Value="C:\Users\JAcob\Documents\GitHub\Programmering\MailClient\MailClient\Forms\POP3Indbakke\Icons\ShowLog.png" />
+                                            <Setter Property="Image.Source" Value="Icons\ShowLog.png" />
                                         </Trigger>
                                     </Style.Triggers>
                                 </Style>
@@ -85,7 +85,7 @@
                                 <Style TargetType="Image">
                                     <Style.Triggers>
                                         <Trigger Property="IsEnabled" Value="False">
-                                            <Setter Property="Image.Source" Value="C:\Users\JAcob\Documents\GitHub\Programmering\MailClient\MailClient\Forms\POP3Indbakke\Icons\Back.png" />
+                                            <Setter Property="Image.Source" Value="Icons\Back.png" />
                                         </Trigger>
                                         <Trigger Property="IsEnabled" Value="True">
                                             <Setter Property="Image.Source" Value="C:\Users\JAcob\Documents\GitHub\Programmering\MailClient\MailClient\Forms\POP3Indbakke\Icons\Back.png" />

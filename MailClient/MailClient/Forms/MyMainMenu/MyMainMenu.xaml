@@ -66,7 +66,7 @@
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <Image HorizontalAlignment="Left" Height="283" Margin="692,23,-129,0" VerticalAlignment="Top" Width="427" Source="/Prim;component/Forms/POP3Indbakke/Icons/mail.png"/>
+        <Image HorizontalAlignment="Left" Height="283" Margin="692,23,-129,0" VerticalAlignment="Top" Width="427" Source="/MailClient;component/Forms/POP3Indbakke/Icons/mail.png"/>
 
     </Grid>
 </UserControl>
